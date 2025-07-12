@@ -19,6 +19,7 @@ producer = KafkaProducer(
 
 for msg in consumer:
     ride_request = msg.value 
+    print(ride_request)
     assigned_driver = random.choice(drivers)
     ride_status = {
         "user_id": ride_request['user_id'],

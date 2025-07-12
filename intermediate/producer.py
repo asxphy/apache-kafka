@@ -22,5 +22,5 @@ while True:
     print("[PRODUCER] Sent Ride Reequest: ",ride_request)
     producer.send('ride_requests',value=ride_request)
 
-    time.sleep(2)
+    time.sleep(10)
 
