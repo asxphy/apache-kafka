@@ -33,3 +33,4 @@ def create_ride(ride: RideRequest):
     print(f"[API] Produced Ride Request: {ride_data}")
 
     return {"status": "Ride request sent", "data": ride_data}
+`
